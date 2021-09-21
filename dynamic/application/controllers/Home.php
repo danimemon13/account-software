@@ -27,7 +27,9 @@ class Home extends CI_Controller {
     	$this->load->view('login');
     }
     public function dashboard(){
+    	$this->load->view('include/header');
     	$this->load->view('dashboard');
+    	$this->load->view('include/footer');
     }
 }
 ?>
