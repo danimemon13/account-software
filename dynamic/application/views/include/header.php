@@ -63,7 +63,7 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.html">Parent Headers</a>
+                                    <a class="nav-link" href="<?=base_url()?>parent-headers">Parent Headers</a>
                                     <a class="nav-link" href="layout-sidenav-light.html">Child Headers</a>
                                 </nav>
                             </div>

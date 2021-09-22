@@ -55,3 +55,4 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['login'] = 'home/login';
 $route['dashboard'] = 'home/dashboard';
+$route['parent-headers'] = 'home/parent_headers';

@@ -31,5 +31,11 @@ class Home extends CI_Controller {
     	$this->load->view('dashboard');
     	$this->load->view('include/footer');
     }
+    public function parent_headers(){
+    	$data['main_header'] = $this->Home_models->selectrecords('main_header');
+    	$this->load->view('include/header');
+    	$this->load->view('main-header',$data);
+    	$this->load->view('include/footer');
+    }
 }
 ?>
